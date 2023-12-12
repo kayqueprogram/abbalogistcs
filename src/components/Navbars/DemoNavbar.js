@@ -109,8 +109,8 @@ class DemoNavbar extends React.Component {
                       <div className="dropdown-menu-inner">
                         <Media
                           className="d-flex align-items-center"
-                          href="#"
-                          target="_blank"
+                          href="/truck"
+                          
                         >
                           <div className="icon icon-shape bg-gradient-primary rounded-circle text-white">
                           <PiTruckThin />
@@ -118,7 +118,7 @@ class DemoNavbar extends React.Component {
                           </div>
                           <Media body className="ml-3">
                             <h6 className="heading text-primary mb-md-1">
-                              Transporte de cargas
+                              Transporte de carga
                             </h6>
                             <p className="description d-none d-md-inline-block mb-0">
                               Entregamos sua carga com rapidez e segurança. Transportamos sua carga para todo o Brasil.
@@ -127,25 +127,8 @@ class DemoNavbar extends React.Component {
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="#"
-                          target="_blank"
-                        >
-                          <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
-                            <i className="ni ni-bus-front-12" />
-                          </div>
-                          <Media body className="ml-3">
-                            <h6 className="heading text-primary mb-md-1">
-                              Transporte Rodoviário
-                            </h6>
-                            <p className="description d-none d-md-inline-block mb-0">
-                              Disponibilizamos ônibus fretados para empresas, eventos, viagens e excursões
-                            </p>
-                          </Media>
-                        </Media>
-                        <Media
-                          className="d-flex align-items-center"
-                          href="#"
-                          target="_blank"
+                          href="/plane"
+                          
                         >
                           <div className="icon icon-shape bg-gradient-danger rounded-circle text-white">
                           <FaPlaneDeparture />
@@ -157,13 +140,13 @@ class DemoNavbar extends React.Component {
                               Transporte Aéreo
                             </h5>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Desde transporte de passageiros, até o tranporte de carga
+                              Possuímos cobertura nacional e internacional para o transporte de sua carga.
                             </p>
                         </Media>
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="#"
+                          href="/ship"
                           target="_blank"
                         >
                           <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
@@ -175,7 +158,7 @@ class DemoNavbar extends React.Component {
                               Transporte Marítmo
                             </h5>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Transportamos sua carga pelo mar, até o seu destino.
+                              Com nossas parcerias, transportamos sua carga para qualquer parte do mundo.                    
                             </p>
                           </Media>
                          

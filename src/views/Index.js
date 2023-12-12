@@ -8,7 +8,7 @@ import { Container } from "reactstrap";
 // index page sections
 import Hero from "./IndexSections/Hero.js";
 import Cards from "./IndexSections/Cards.js";
-import Inputs from "./IndexSections/Inputs.js";
+import Transportes from "./IndexSections/Transportes.js";
 //import Carousel from "./IndexSections/Carousel.js";
 
 class Index extends React.Component {
@@ -27,7 +27,7 @@ class Index extends React.Component {
         <main ref="main">
           <Container>
           <Cards />
-          <Inputs />
+          <Transportes />
           </Container>
       
         </main>

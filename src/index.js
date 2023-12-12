@@ -28,6 +28,9 @@ import CardsFooter from "components/Footers/CardsFooter";
 import Hero from "views/IndexSections/Hero";
 
 import Index from "views/Index.js";
+import Truck from "views/Transportes/Truck";
+import Plane from "views/Transportes/Plane";
+import Ship from "views/Transportes/Ship";
 import Landing from "views/examples/Landing.js";
 import Login from "views/examples/Login.js";
 import Profile from "views/examples/Profile.js";
@@ -41,6 +44,9 @@ root.render(
   <Hero/>
     <Routes>
       <Route path="/" exact element={<Index />} />
+      <Route path="/truck" exact element={<Truck/>} />
+      <Route path="/plane" exact element={<Plane/>} />
+      <Route path="/ship" exact element={<Ship/>} />
       <Route path='/contact' exact element={<Contact/>} />
       <Route path="/landing-page" exact element={<Landing />} />
       <Route path="/login-page" exact element={<Login />} />
