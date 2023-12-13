@@ -37,7 +37,7 @@ class Hero extends React.Component {
                       style={{ width: "200px" }}
                     />
                     <p className="lead text-white">
-                      Desde 2024 criando soluções em logística para você!
+                      Desde 2023 criando soluções em logística para você!
                     </p>
                     <div className="btn-wrapper mt-5">
                       <Button

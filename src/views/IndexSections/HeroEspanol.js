@@ -37,7 +37,7 @@ class HeroEspanol extends React.Component {
                       style={{ width: "200px" }}
                     />
                     <p className="lead text-white">
-                    ¡Desde 2024 creando soluciones logísticas para ti!
+                    ¡Desde 2023 creando soluciones logísticas para ti!
                     </p>
                     <div className="btn-wrapper mt-5">
                       <Button

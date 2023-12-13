@@ -37,7 +37,7 @@ class Hero extends React.Component {
                       style={{ width: "200px" }}
                     />
                     <p className="lead text-white">
-                    Since 2024 creating logistics solutions for you!
+                    Since 2023 creating logistics solutions for you!
                     </p>
                     <div className="btn-wrapper mt-5">
                       <Button
