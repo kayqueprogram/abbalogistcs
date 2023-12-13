@@ -7,7 +7,6 @@ import { FaPlaneDeparture } from "react-icons/fa";
 import { FaPersonCircleCheck } from "react-icons/fa6";
 import { GiBrazilFlag } from "react-icons/gi";
 
-
 // JavaScript plugin that hides or shows a component based on your scroll
 import Headroom from "headroom.js";
 // reactstrap components
@@ -30,7 +29,7 @@ import {
   UncontrolledTooltip,
 } from "reactstrap";
 
-class DemoNavbar extends React.Component {
+class EspNavbar extends React.Component {
   componentDidMount() {
     let headroom = new Headroom(document.getElementById("navbar-main"));
     // initialise
@@ -102,7 +101,7 @@ class DemoNavbar extends React.Component {
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-ui-04 d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Serviços +</span>
+                      <span className="nav-link-inner--text">Servicios +</span>
                     </DropdownToggle>
                     <DropdownMenu className="dropdown-menu-xl">
                       <div className="dropdown-menu-inner">
@@ -115,11 +114,11 @@ class DemoNavbar extends React.Component {
                           </div>
                           <Media body className="ml-3">
                             <h6 className="heading text-primary mb-md-1">
-                              Transporte de carga
+                              Tráfico de mercancías
                             </h6>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Entregamos sua carga com rapidez e segurança.
-                              Transportamos sua carga para todo o Brasil.
+                              Entregamos su carga de forma rápida y segura.
+                              Transportamos su carga por todo Brasil.
                             </p>
                           </Media>
                         </Media>
@@ -132,11 +131,11 @@ class DemoNavbar extends React.Component {
                           </div>
                           <Media body className="ml-3">
                             <h5 className="heading text-danger mb-md-1">
-                              Transporte Aéreo
+                              Transporte aereo
                             </h5>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Possuímos cobertura nacional e internacional para
-                              o transporte de sua carga.
+                              Contamos con cobertura nacional e internacional
+                              para transportando su carga.
                             </p>
                           </Media>
                         </Media>
@@ -150,11 +149,11 @@ class DemoNavbar extends React.Component {
                           </div>
                           <Media body className="ml-3">
                             <h5 className="heading text-warning mb-md-1">
-                              Transporte Marítmo
+                              Transporte maritimo
                             </h5>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Com nossas parcerias, transportamos sua carga para
-                              qualquer parte do mundo.
+                              Con nuestras asociaciones, transportamos su carga
+                              a cualquier parte del mundo.
                             </p>
                           </Media>
                         </Media>
@@ -164,7 +163,9 @@ class DemoNavbar extends React.Component {
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Quem Somos</span>
+                      <span className="nav-link-inner--text">
+                        Quienes somos
+                      </span>
                     </DropdownToggle>
                   </UncontrolledDropdown>
 
@@ -187,7 +188,7 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip333589074">
-                      Siga-nos no Facebook
+                      Síguenos en Facebook
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem>
@@ -203,7 +204,7 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip356693867">
-                      Siga-nos no Instagram
+                      Síguenos en Instagram
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem>
@@ -219,38 +220,23 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip184698705">
-                      Siga-nos no Twitter
+                      Síganos en Twitter
                     </UncontrolledTooltip>
                   </NavItem>
-                  
-                    <UncontrolledDropdown group>
-                      <DropdownToggle caret color="secondary">
-                        Lang
-                      </DropdownToggle>
-                      <DropdownMenu>
-                        <DropdownItem
-                          href="/"
-                          
-                        >
-                          Português <GiBrazilFlag />
-                        </DropdownItem>
-                        <DropdownItem
-                          href="/esp"
-                          
-                        >
-                          Español
-                        </DropdownItem>
-                        <DropdownItem
-                          href="/eng"
-                          
-                        >
-                          English
-                        </DropdownItem>
-                        <DropdownItem divider />
-                        
-                      </DropdownMenu>
-                    </UncontrolledDropdown>
-                  
+
+                  <UncontrolledDropdown group>
+                    <DropdownToggle caret color="secondary">
+                      Lang
+                    </DropdownToggle>
+                    <DropdownMenu>
+                      <DropdownItem href="/">
+                        Português <GiBrazilFlag />
+                      </DropdownItem>
+                      <DropdownItem href="/esp">Español</DropdownItem>
+                      <DropdownItem href="/eng">English</DropdownItem>
+                      <DropdownItem divider />
+                    </DropdownMenu>
+                  </UncontrolledDropdown>
                 </Nav>
               </UncontrolledCollapse>
             </Container>
@@ -261,4 +247,4 @@ class DemoNavbar extends React.Component {
   }
 }
 
-export default DemoNavbar;
+export default EspNavbar;

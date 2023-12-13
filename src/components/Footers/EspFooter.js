@@ -15,7 +15,7 @@ import {
   UncontrolledTooltip,
 } from "reactstrap";
 
-class CardsFooter extends React.Component {
+class EspFooter extends React.Component {
   render() {
     return (
       <>
@@ -26,7 +26,7 @@ class CardsFooter extends React.Component {
               <Col lg="6">
 
                 <h4 className="mb-0 font-weight-light">
-                  Siga-nos em nossas redes sociais
+                Síguenos en nuestras redes sociales
                 </h4>
               </Col>
               <Col className="text-lg-center btn-wrapper" lg="6">
@@ -42,7 +42,7 @@ class CardsFooter extends React.Component {
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip475038074">
-                  Siga-nos
+                Síganos
                 </UncontrolledTooltip>
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
@@ -56,7 +56,7 @@ class CardsFooter extends React.Component {
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip837440414">
-                Siga-nos
+                Síganos
                 </UncontrolledTooltip>
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
@@ -70,7 +70,7 @@ class CardsFooter extends React.Component {
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip829810202">
-                Siga-nos
+                Síganos
                 </UncontrolledTooltip>
                
               </Col>
@@ -98,7 +98,7 @@ class CardsFooter extends React.Component {
                       href="#"
                       target="_blank"
                     >
-                      Quem somos
+                      Quienes somos
                     </NavLink>
                   </NavItem>
                   <NavItem>
@@ -119,4 +119,4 @@ class CardsFooter extends React.Component {
   }
 }
 
-export default CardsFooter;
+export default EspFooter;

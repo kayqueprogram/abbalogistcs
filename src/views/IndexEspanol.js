@@ -6,14 +6,15 @@ import { Helmet } from "react-helmet"
 import { Container } from "reactstrap";
 
 // index page sections
-import DemoNavbar from "components/Navbars/DemoNavbar.js";
-import Hero from "./IndexSections/Hero.js"; 
-import CardsFooter from "components/Footers/CardsFooter.js";
+import EspNavbar from "components/Navbars/EspNavbar.js";
+import HeroEspanol from "./IndexSections/HeroEspanol.js";
+import CardsEspanol from "./IndexSections/CardsEspanol.js";
+import EspFooter from "components/Footers/EspFooter.js";
 import Cards from "./IndexSections/Cards.js";
-import Transportes from "./IndexSections/Transportes.js";
+import TransportesEspanol from "./IndexSections/TransportesEspanol.js";
 //import Carousel from "./IndexSections/Carousel.js";
 
-class Index extends React.Component {
+class IndexEspanol extends React.Component {
   componentDidMount() {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
@@ -26,19 +27,19 @@ class Index extends React.Component {
           <title> Home - Abba Logistics </title>
           <meta name='description' content='página principal - Abba Logistics' />
         </Helmet>
-        <DemoNavbar />
-        <Hero/>
+        <EspNavbar/>
+        <HeroEspanol/>
         <main ref="main">
           <Container>
-          <Cards />
-          <Transportes />
+          <CardsEspanol />
+          <TransportesEspanol />
           </Container>
       
         </main>
-        <CardsFooter/>
+        <EspFooter/>
       </>
     );
   }
 }
 
-export default Index;
+export default IndexEspanol;

@@ -30,7 +30,7 @@ import {
   UncontrolledTooltip,
 } from "reactstrap";
 
-class DemoNavbar extends React.Component {
+class EngNavbar extends React.Component {
   componentDidMount() {
     let headroom = new Headroom(document.getElementById("navbar-main"));
     // initialise
@@ -102,7 +102,7 @@ class DemoNavbar extends React.Component {
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-ui-04 d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Serviços +</span>
+                      <span className="nav-link-inner--text">Services +</span>
                     </DropdownToggle>
                     <DropdownMenu className="dropdown-menu-xl">
                       <div className="dropdown-menu-inner">
@@ -115,11 +115,11 @@ class DemoNavbar extends React.Component {
                           </div>
                           <Media body className="ml-3">
                             <h6 className="heading text-primary mb-md-1">
-                              Transporte de carga
+                            Cargo transport
                             </h6>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Entregamos sua carga com rapidez e segurança.
-                              Transportamos sua carga para todo o Brasil.
+                            We deliver your cargo quickly and safely.
+                              We transport your cargo throughout Brazil.
                             </p>
                           </Media>
                         </Media>
@@ -132,11 +132,11 @@ class DemoNavbar extends React.Component {
                           </div>
                           <Media body className="ml-3">
                             <h5 className="heading text-danger mb-md-1">
-                              Transporte Aéreo
+                            Air Transport
                             </h5>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Possuímos cobertura nacional e internacional para
-                              o transporte de sua carga.
+                            We have national and international coverage for
+                              transporting your cargo.
                             </p>
                           </Media>
                         </Media>
@@ -150,11 +150,11 @@ class DemoNavbar extends React.Component {
                           </div>
                           <Media body className="ml-3">
                             <h5 className="heading text-warning mb-md-1">
-                              Transporte Marítmo
+                            Maritime Transport
                             </h5>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Com nossas parcerias, transportamos sua carga para
-                              qualquer parte do mundo.
+                            With our partnerships, we transport your cargo to
+                              any part of the world.
                             </p>
                           </Media>
                         </Media>
@@ -164,13 +164,13 @@ class DemoNavbar extends React.Component {
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Quem Somos</span>
+                      <span className="nav-link-inner--text">Who we are</span>
                     </DropdownToggle>
                   </UncontrolledDropdown>
 
                   <NavLink href="#" target="_blank">
                     <FaPersonCircleCheck className="d-lg-none mr-1" />
-                    <span className="nav-link-inner--text ">Diferencial</span>
+                    <span className="nav-link-inner--text ">Differential</span>
                   </NavLink>
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
@@ -187,7 +187,7 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip333589074">
-                      Siga-nos no Facebook
+                      Like us on Facebook
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem>
@@ -203,7 +203,7 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip356693867">
-                      Siga-nos no Instagram
+                      Follow us on Instagram
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem>
@@ -219,7 +219,7 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip184698705">
-                      Siga-nos no Twitter
+                      Follow us on Twitter
                     </UncontrolledTooltip>
                   </NavItem>
                   
@@ -261,4 +261,4 @@ class DemoNavbar extends React.Component {
   }
 }
 
-export default DemoNavbar;
+export default EngNavbar;
