@@ -17,9 +17,9 @@ import {
   Row,
 } from "reactstrap";
 import classnames from "classnames";
-import DemoNavbar from "src\components\Navbars\DemoNavbar.js"
-import Hero from "src\views\IndexSections\Hero.js"
-import CardsFooter from "src\components\Footers\CardsFooter.js"
+import DemoNavbar from "components\Navbars\DemoNavbar"
+import Hero from "views\IndexSections\Hero"
+import CardsFooter from "components\Footers\CardsFooter"
 
 class Contact extends React.Component {
   state = {};
