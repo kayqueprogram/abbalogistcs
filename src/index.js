@@ -33,23 +33,18 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" exact element={<Index />} />
-      <Route path="/truck" exact element={<Truck/>} />
-      <Route path="/plane" exact element={<Plane/>} />
-      <Route path="/ship" exact element={<Ship/>} />
-      <Route path='/contact' exact element={<Contact/>} />
-      <Route path="/esp" exact element={<IndexEspanol />} />
-      <Route path="/eng" exact element={<IndexEnglish />} />
-      <Route path="/eng/truck" exact element={<TruckEng />} />
-      <Route path="/eng/plane" exact element={<PlaneEng/>} />
-      <Route path="/eng/ship" exact element={<ShipEng />} />
-      <Route path="/plane/esp" exact element={<PlaneEsp/>} />
-      <Route path="/ship/esp/" exact element={<ShipEsp/>} />
-      <Route path="/truck/esp" exact element={<TruckEsp />} />
-      <Route path="/landing-page" exact element={<Landing />} />
-      <Route path="/login-page" exact element={<Login />} />
-      <Route path="/profile-page" exact element={<Profile />} />
-      <Route path="/register-page" exact element={<Register />} />
-      <Route path="*" element={<Navigate to="/" replace />} />
+      <Route path="/truck" element={<Truck/>} />
+      <Route path="/plane" element={<Plane/>} />
+      <Route path="/ship" element={<Ship/>} />
+      <Route path='/contact' element={<Contact/>} />
+      <Route path="/esp"  element={<IndexEspanol />} />
+      <Route path="/eng"  element={<IndexEnglish />} />
+      <Route path="/eng/truck" element={<TruckEng />} />
+      <Route path="/eng/plane" element={<PlaneEng/>} />
+      <Route path="/eng/ship" element={<ShipEng />} />
+      <Route path="/esp/plane" element={<PlaneEsp/>} />
+      <Route path="/esp/ship" element={<ShipEsp/>} />
+      <Route path="/esp/truck" element={<TruckEsp />} />
     </Routes>
     
   </BrowserRouter>
