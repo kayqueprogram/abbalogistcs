@@ -1,10 +1,15 @@
 import React from "react";
 import { Container, Row, Col, Card, CardImg } from "reactstrap";
+import DemoNavbar from "src\components\Navbars\DemoNavbar.js"
+import Hero from "src\views\IndexSections\Hero.js"
+import CardsFooter from "src\components\Footers\CardsFooter.js"
 
 class Plane extends React.Component {
   render() {
     return (
       <>
+      <DemoNavbar/>
+      <Hero/>
         <section className="section bg-secondary">
           <Container>
             <Row className="row-grid align-items-center">
@@ -86,6 +91,7 @@ class Plane extends React.Component {
             </Row>
           </Container>
         </section>
+        <CardsFooter/>
       </>
     );
   }

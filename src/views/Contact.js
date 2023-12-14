@@ -17,6 +17,9 @@ import {
   Row,
 } from "reactstrap";
 import classnames from "classnames";
+import DemoNavbar from "src\components\Navbars\DemoNavbar.js"
+import Hero from "src\views\IndexSections\Hero.js"
+import CardsFooter from "src\components\Footers\CardsFooter.js"
 
 class Contact extends React.Component {
   state = {};
@@ -24,9 +27,12 @@ class Contact extends React.Component {
   render() {
     return (
       <>
+      <DemoNavbar/>
+      
       <Helmet>
         <title> Contato - Abba Logistics</title>
       </Helmet>
+      <Hero/>
         <section className="section section-lg bg-gradient-default">
           <section className="section" >
           <Row className="text-center justify-content-center">
@@ -127,6 +133,7 @@ class Contact extends React.Component {
             </Container>
           </section>
         </section>
+        <CardsFooter/>
       </>
     );
   }

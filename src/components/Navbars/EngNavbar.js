@@ -108,7 +108,7 @@ class EngNavbar extends React.Component {
                       <div className="dropdown-menu-inner">
                         <Media
                           className="d-flex align-items-center"
-                          href="/truck/eng"
+                          href="/eng/truck"
                         >
                           <div className="icon icon-shape bg-gradient-primary rounded-circle text-white">
                             <PiTruckThin />
@@ -125,7 +125,7 @@ class EngNavbar extends React.Component {
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="/plane/eng"
+                          href="/eng/plane"
                         >
                           <div className="icon icon-shape bg-gradient-danger rounded-circle text-white">
                             <FaPlaneDeparture />
@@ -142,7 +142,7 @@ class EngNavbar extends React.Component {
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="/ship/eng"
+                          href="/eng/ship"
                         >
                           <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
                             <FaShip />

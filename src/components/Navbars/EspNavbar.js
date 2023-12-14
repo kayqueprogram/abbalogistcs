@@ -107,7 +107,7 @@ class EspNavbar extends React.Component {
                       <div className="dropdown-menu-inner">
                         <Media
                           className="d-flex align-items-center"
-                          href="/truck"
+                          href="/truck/esp"
                         >
                           <div className="icon icon-shape bg-gradient-primary rounded-circle text-white">
                             <PiTruckThin />
@@ -124,7 +124,7 @@ class EspNavbar extends React.Component {
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="/plane/esp"
+                          href="/esp/plane"
                         >
                           <div className="icon icon-shape bg-gradient-danger rounded-circle text-white">
                             <FaPlaneDeparture />
@@ -141,7 +141,7 @@ class EspNavbar extends React.Component {
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="/ship/esp"
+                          href="/esp/ship"
                           
                         >
                           <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">

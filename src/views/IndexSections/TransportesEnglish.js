@@ -17,7 +17,7 @@ class TransportesEnglish extends React.Component {
           <section className="section pb-0 section-components">
             <Row xs={1} md={2} className="g-4">
               <Col className="card-lift--hover">
-                <a href="/truck/eng">
+                <a href="/eng/truck">
                   <Card>
                     <Card.Img
                       variant="top"
@@ -36,7 +36,7 @@ class TransportesEnglish extends React.Component {
               </Col>
 
               <Col className="card-lift--hover">
-                <a href="/plane/eng">
+                <a href="/eng/plane">
                   <Card>
                     <Card.Img
                       variant="top"
@@ -55,7 +55,7 @@ class TransportesEnglish extends React.Component {
               </Col>
 
               <Col className="card-lift--hover">
-                <a href="/ship/eng">
+                <a href="/eng/ship">
                   <Card>
                     <Card.Img
                       variant="top"
