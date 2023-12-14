@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col, Card, CardImg } from "reactstrap";
-import DemoNavbar from "components\Navbars\DemoNavbar"
-import Hero from "views\IndexSections\Hero"
-import CardsFooter from "components\Footers\CardsFooter"
+import DemoNavbar from "components/Navbars/DemoNavbar"
+import Hero from "views/IndexSections/Hero"
+import CardsFooter from "components/Footers/CardsFooter"
 
 class Ship extends React.Component {
   render() {
