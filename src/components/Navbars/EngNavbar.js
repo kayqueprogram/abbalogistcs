@@ -63,7 +63,7 @@ class EngNavbar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
+              <NavbarBrand className="mr-lg-5" to="/eng" tag={Link}>
                 <img
                   alt="..."
                   height="750px"
