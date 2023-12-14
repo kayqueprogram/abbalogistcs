@@ -83,7 +83,7 @@ class EngNavbar extends React.Component {
                 <div className="navbar-collapse-header">
                   <Row>
                     <Col className="collapse-brand" xs="6">
-                      <Link to="/">
+                      <Link to="/eng">
                         <img
                           alt="..."
                           src="https://cdn.discordapp.com/attachments/995485098336067675/1182487946310471760/ABBA_drive-removebg-preview_2.png?ex=6584e0b7&is=65726bb7&hm=95d16864d94e54b19c9dc124dbb52df3320e62df20785c1fb06efb9133b2973e&"
@@ -108,7 +108,7 @@ class EngNavbar extends React.Component {
                       <div className="dropdown-menu-inner">
                         <Media
                           className="d-flex align-items-center"
-                          href="/truck"
+                          href="/truck/eng"
                         >
                           <div className="icon icon-shape bg-gradient-primary rounded-circle text-white">
                             <PiTruckThin />
@@ -125,7 +125,7 @@ class EngNavbar extends React.Component {
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="/plane"
+                          href="/plane/eng"
                         >
                           <div className="icon icon-shape bg-gradient-danger rounded-circle text-white">
                             <FaPlaneDeparture />
@@ -142,8 +142,7 @@ class EngNavbar extends React.Component {
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="/ship"
-                          target="_blank"
+                          href="/ship/eng"
                         >
                           <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
                             <FaShip />

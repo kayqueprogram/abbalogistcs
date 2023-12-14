@@ -62,7 +62,7 @@ class EspNavbar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
+              <NavbarBrand className="mr-lg-5" to="/esp" tag={Link}>
                 <img
                   alt="..."
                   height="750px"
@@ -82,7 +82,7 @@ class EspNavbar extends React.Component {
                 <div className="navbar-collapse-header">
                   <Row>
                     <Col className="collapse-brand" xs="6">
-                      <Link to="/">
+                      <Link to="/esp">
                         <img
                           alt="..."
                           src="https://cdn.discordapp.com/attachments/995485098336067675/1182487946310471760/ABBA_drive-removebg-preview_2.png?ex=6584e0b7&is=65726bb7&hm=95d16864d94e54b19c9dc124dbb52df3320e62df20785c1fb06efb9133b2973e&"
@@ -124,7 +124,7 @@ class EspNavbar extends React.Component {
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="/plane"
+                          href="/plane/esp"
                         >
                           <div className="icon icon-shape bg-gradient-danger rounded-circle text-white">
                             <FaPlaneDeparture />
@@ -141,8 +141,8 @@ class EspNavbar extends React.Component {
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="/ship"
-                          target="_blank"
+                          href="/ship/esp"
+                          
                         >
                           <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
                             <FaShip />

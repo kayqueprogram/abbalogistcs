@@ -6,7 +6,7 @@ import { FcServices } from "react-icons/fc";
 
 
 
-class Hero extends React.Component {
+class HeroEnglish extends React.Component {
   render() {
     return (
       <>
@@ -95,4 +95,4 @@ class Hero extends React.Component {
   }
 }
 
-export default Hero;
+export default HeroEnglish;

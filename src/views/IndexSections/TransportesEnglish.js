@@ -5,16 +5,19 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { Container } from "reactstrap";
 
+
+
 class TransportesEnglish extends React.Component {
   state = {};
   render() {
     return (
       <>
+  
         <Container>
           <section className="section pb-0 section-components">
             <Row xs={1} md={2} className="g-4">
               <Col className="card-lift--hover">
-                <a href="/truck">
+                <a href="/truck/eng">
                   <Card>
                     <Card.Img
                       variant="top"
@@ -33,7 +36,7 @@ class TransportesEnglish extends React.Component {
               </Col>
 
               <Col className="card-lift--hover">
-                <a href="/plane">
+                <a href="/plane/eng">
                   <Card>
                     <Card.Img
                       variant="top"
@@ -52,7 +55,7 @@ class TransportesEnglish extends React.Component {
               </Col>
 
               <Col className="card-lift--hover">
-                <a href="/ship">
+                <a href="/ship/eng">
                   <Card>
                     <Card.Img
                       variant="top"
@@ -72,6 +75,7 @@ class TransportesEnglish extends React.Component {
             </Row>
           </section>
         </Container>
+        
       </>
     );
   }
