@@ -17,28 +17,28 @@ import {
   Row,
 } from "reactstrap";
 import classnames from "classnames";
-import DemoNavbar from "components/Navbars/DemoNavbar"
-import Hero from "views/IndexSections/Hero"
-import CardsFooter from "components/Footers/CardsFooter"
+import EngNavbar from "components/Navbars/EngNavbar"
+import HeroEnglish from "views/IndexSections/HeroEnglish"
+import EngFooter from "components/Footers/EngFooter"
 
-class Contact extends React.Component {
+class ContactEng extends React.Component {
   state = {};
 
   render() {
     return (
       <>
-      <DemoNavbar/>
+      <EngNavbar/>
       
       <Helmet>
-        <title> Contato - Abba Logistics</title>
+        <title> Contact - Abba Logistics</title>
       </Helmet>
-      <Hero/>
+      <HeroEnglish/>
         <section className="section section-lg bg-gradient-default">
           <section className="section" >
           <Row className="text-center justify-content-center">
             <Col lg="'10">
               <h2 className="mb-5 display-3 text-white">
-                <GrContact /> Contate-nos
+                <GrContact /> Contact Us
               </h2>
             </Col>
           </Row>
@@ -55,9 +55,9 @@ class Contact extends React.Component {
                 <Col lg="8">
                   <Card className="bg-gradient-secondary shadow">
                     <CardBody className="p-lg-5">
-                      <h4 className="mb-1">Faça seu orçamento</h4>
+                      <h4 className="mb-1">Make your budget</h4>
                       <p className="mt-0">
-                        Entre em contato conosco. Tire suas dúvidas e faça suas sugestões. Basta preencher o formulário e logo entraremos em contato!
+                      Get in touch with us. Ask your questions and make your suggestions. Just fill out the form and we'll be in touch shortly!
                       </p>
                       <FormGroup
                         className={classnames("mt-5", {
@@ -71,7 +71,7 @@ class Contact extends React.Component {
                             </InputGroupText>
                           </InputGroupAddon>
                           <Input
-                            placeholder="Seu nome"
+                            placeholder="Your name"
                             type="text"
                             onFocus={(e) =>
                               this.setState({ nameFocused: true })
@@ -94,7 +94,7 @@ class Contact extends React.Component {
                             </InputGroupText>
                           </InputGroupAddon>
                           <Input
-                            placeholder="Endereço de Email"
+                            placeholder="Email Address"
                             type="email"
                             onFocus={(e) =>
                               this.setState({ emailFocused: true })
@@ -110,7 +110,7 @@ class Contact extends React.Component {
                           className="form-control-alternative"
                           cols="80"
                           name="name"
-                          placeholder="Escreva uma mensagem..."
+                          placeholder="Write a message..."
                           rows="4"
                           type="textarea"
                         />
@@ -123,7 +123,7 @@ class Contact extends React.Component {
                           size="lg"
                           type="button"
                         >
-                          Enviar mensagem
+                          Send Message
                         </Button>
                       </div>
                     </CardBody>
@@ -133,10 +133,10 @@ class Contact extends React.Component {
             </Container>
           </section>
         </section>
-        <CardsFooter/>
+        <EngFooter/>
       </>
     );
   }
 }
 
-export default Contact;
+export default ContactEng;

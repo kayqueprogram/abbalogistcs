@@ -22,10 +22,8 @@ import TruckEng from "views/Transportes/TruckEng.js";
 import PlaneEsp from "views/Transportes/PlaneEsp";
 import ShipEsp from "views/Transportes/ShipEsp";
 import TruckEsp from "views/Transportes/TruckEsp";
-import Landing from "views/examples/Landing.js";
-import Login from "views/examples/Login.js";
-import Profile from "views/examples/Profile.js";
-import Register from "views/examples/Register.js";
+import ContactEng from "views/ContactEng";
+import ContactEsp from "views/ContactEsp";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -37,14 +35,19 @@ root.render(
       <Route path="/plane" element={<Plane/>} />
       <Route path="/ship" element={<Ship/>} />
       <Route path='/contact' element={<Contact/>} />
-      <Route path="/esp"  element={<IndexEspanol />} />
+      
       <Route path="/eng"  element={<IndexEnglish />} />
       <Route path="/eng/truck" element={<TruckEng />} />
       <Route path="/eng/plane" element={<PlaneEng/>} />
       <Route path="/eng/ship" element={<ShipEng />} />
+      <Route path="/eng/contact" element={<ContactEng />} />
+
+      <Route path="/esp"  element={<IndexEspanol />} />
       <Route path="/esp/plane" element={<PlaneEsp/>} />
       <Route path="/esp/ship" element={<ShipEsp/>} />
       <Route path="/esp/truck" element={<TruckEsp />} />
+      <Route path="/esp/contact" element={<ContactEsp />} />
+      
     </Routes>
     
   </BrowserRouter>
