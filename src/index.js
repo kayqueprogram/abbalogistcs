@@ -39,9 +39,9 @@ root.render(
       <Route path='/contact' exact element={<Contact/>} />
       <Route path="/esp" exact element={<IndexEspanol />} />
       <Route path="/eng" exact element={<IndexEnglish />} />
-      <Route path="/truck/eng/" exact element={<TruckEng />} />
-      <Route path="/plane/eng/" exact element={<PlaneEng/>} />
-      <Route path="/ship/eng/" exact element={<ShipEng />} />
+      <Route path="/eng/truck" exact element={<TruckEng />} />
+      <Route path="/eng/plane" exact element={<PlaneEng/>} />
+      <Route path="/eng/ship" exact element={<ShipEng />} />
       <Route path="/plane/esp" exact element={<PlaneEsp/>} />
       <Route path="/ship/esp/" exact element={<ShipEsp/>} />
       <Route path="/truck/esp" exact element={<TruckEsp />} />
