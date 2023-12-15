@@ -56,7 +56,7 @@ class HeroEnglish extends React.Component {
                         color="github"
                         href="#services"
                         size="lg"
-                        target="_blank"
+                      
                       >
                         <span className="btn-inner--icon mr-1">
                         <FcServices />
