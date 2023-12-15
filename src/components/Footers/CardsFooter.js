@@ -81,10 +81,17 @@ class CardsFooter extends React.Component {
                 <div className="copyright">
                   © 2023
                   <a
-                    href="/"
+                    href="#"
                   > Abba Logistics  </a>  | Todos os direitos reservados
                   .
                 </div>
+              </Col>
+              <Col md="6">
+                <div className="copyright">
+                  Fale Conosco
+                  <Row className="copyright"> Tel:</Row>
+                </div>
+                
               </Col>
               <Col md="6">
                 <Nav className="nav-footer justify-content-end">
