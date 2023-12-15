@@ -77,48 +77,18 @@ class CardsFooter extends React.Component {
               <footer className="footer">
                 <Container>
                   <Row className="align-items-center justify-content-md-between">
-                    <Col md="4">
-                      <div className="display-4 text-white">
-                        Nome da Empresa
-                      </div>
-                      <div className="mt-2">
-                        <small className="text-white">
-                          © {new Date().getFullYear()} Nome da Empresa, Todos os
-                          direitos reservados.
-                        </small>
-                      </div>
-                    </Col>
-                    <Col md="4">
-                      <ul className="nav nav-footer justify-content-end">
-                        <li className="nav-item">
-                          <a
-                            href="#pablo"
-                            className="nav-link text-white"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Sobre Nós
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a
-                            href="#pablo"
-                            className="nav-link text-white"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Blog
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a
-                            href="#pablo"
-                            className="nav-link text-white"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Contato
-                          </a>
-                        </li>
-                      </ul>
-                    </Col>
+                  <Col md="6">
+                <div className="copyright">
+                  © 2023
+                  <a
+                    href="/"
+                  >
+                     Abba Logistics
+
+                  </a>  | Todos os direitos reservados
+                  .
+                </div>
+              </Col>
                     <Col md="4">
                       <div className="">
                         <strong>
