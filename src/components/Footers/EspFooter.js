@@ -89,20 +89,7 @@ class EspFooter extends React.Component {
                   .
                 </div>
               </Col><br/>
-              <Col md="4">
-            <ul className="nav nav-footer justify-content-end">
-              <li className="nav-item">
-                <a href="#" className="nav-link text-white" onClick={(e) => e.preventDefault()}>
-                  Quienes Somos
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="#" className="nav-link text-white" onClick={(e) => e.preventDefault()}>
-                  Diferencial
-                </a>
-              </li>
-            </ul>
-          </Col><br/>
+<br/>
               <Col md="4">
                       <div className="">
                         <strong>
