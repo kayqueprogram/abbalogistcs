@@ -14,7 +14,7 @@ class TransportesEnglish extends React.Component {
       <>
   
         <Container>
-          <section className="section pb-0 section-components">
+          <section className="section pb-0 section-components" id="services">
             <Row xs={1} md={2} className="g-4">
               <Col className="card-lift--hover">
                 <a href="/eng/truck">
