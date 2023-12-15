@@ -224,7 +224,7 @@ class EngNavbar extends React.Component {
                   
                     <UncontrolledDropdown group>
                       <DropdownToggle caret color="secondary">
-                        Lang
+                        Language
                       </DropdownToggle>
                       <DropdownMenu>
                         <DropdownItem

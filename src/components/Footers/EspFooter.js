@@ -79,14 +79,13 @@ class EspFooter extends React.Component {
             <Row className="align-items-center justify-content-md-between">
               <Col md="6">
                 <div className="copyright">
-                  © 2024
+                  © 2023
                   <a
-                    href="#"
-                    target="_blank"
+                    href="/"
                   >
                      Abba Logistics
 
-                  </a>
+                  </a>  | Todos los derechos reservados.
                   .
                 </div>
               </Col>

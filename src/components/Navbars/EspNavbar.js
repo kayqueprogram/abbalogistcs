@@ -226,7 +226,7 @@ class EspNavbar extends React.Component {
 
                   <UncontrolledDropdown group>
                     <DropdownToggle caret color="secondary">
-                      Lang
+                     Idioma
                     </DropdownToggle>
                     <DropdownMenu>
                       <DropdownItem href="/">
