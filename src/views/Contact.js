@@ -189,6 +189,7 @@ class Contact extends React.Component {
                             rows="4"
                             type="textarea"
                           />
+                          <input type="hidden" name="_next" value="https://abbalogistcs.vercel.app/contact"></input>
                         </FormGroup>
                         <div>
                           <Button
