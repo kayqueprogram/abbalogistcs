@@ -146,7 +146,7 @@ class Contact extends React.Component {
                             <Input
                               placeholder="Local"
                               nome="local"
-                              type="text"
+                              type="textarea"
                               onFocus={(e) =>
                                 this.setState({ emailFocused: true })
                               }
@@ -170,7 +170,7 @@ class Contact extends React.Component {
                             <Input
                               placeholder="Qual o serviço desejado?"
                               nome="servico"
-                              type="text"
+                              type="textarea"
                               onFocus={(e) =>
                                 this.setState({ emailFocused: true })
                               }
