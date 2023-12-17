@@ -73,7 +73,7 @@ class Contact extends React.Component {
                             </InputGroupAddon>
                             <Input
                               placeholder="Seu nome"
-                              name="nome"
+                              name="Nome"
                               type="text"
                               onFocus={(e) =>
                                 this.setState({ nameFocused: true })
@@ -97,7 +97,7 @@ class Contact extends React.Component {
                             </InputGroupAddon>
                             <Input
                               placeholder="Número de telefone"
-                              name="phone"
+                              name="Telefone"
                               type="tel"
                               onFocus={(e) =>
                                 this.setState({ emailFocused: true })
@@ -121,7 +121,7 @@ class Contact extends React.Component {
                             </InputGroupAddon>
                             <Input
                               placeholder="Endereço de Email"
-                              nome="email"
+                              name="Email"
                               type="email"
                               onFocus={(e) =>
                                 this.setState({ emailFocused: true })
@@ -145,8 +145,8 @@ class Contact extends React.Component {
                             </InputGroupAddon>
                             <Input
                               placeholder="Local"
-                              nome="local"
-                              type="textarea"
+                              name="Local"
+                              type="text"
                               onFocus={(e) =>
                                 this.setState({ emailFocused: true })
                               }
@@ -169,8 +169,8 @@ class Contact extends React.Component {
                             </InputGroupAddon>
                             <Input
                               placeholder="Qual o serviço desejado?"
-                              nome="servico"
-                              type="textarea"
+                              name="servico"
+                              type="text"
                               onFocus={(e) =>
                                 this.setState({ emailFocused: true })
                               }
