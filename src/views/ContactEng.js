@@ -190,6 +190,8 @@ class ContactEng extends React.Component {
                           type="textarea"
                         />
                       </FormGroup>
+                      <input type="hidden" name="_next" value="https://abbalogistcs.vercel.app/contact"></input>
+                          <input type="hidden" name="_captcha" value="false"></input>
                       <div>
                         <Button
                           className="btn-round"
