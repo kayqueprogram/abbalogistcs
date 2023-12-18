@@ -169,7 +169,7 @@ class Contact extends React.Component {
                             </InputGroupAddon>
                             <Input
                               placeholder="Qual o serviço desejado?"
-                              name="servico"
+                              name="Servico"
                               type="text"
                               onFocus={(e) =>
                                 this.setState({ emailFocused: true })
@@ -184,7 +184,7 @@ class Contact extends React.Component {
                           <Input
                             className="form-control-alternative"
                             cols="80"
-                            name="mensagem"
+                            name="Descrição do Serviço"
                             placeholder="Escreva uma mensagem..."
                             rows="4"
                             type="textarea"

@@ -59,7 +59,8 @@ class ContactEng extends React.Component {
                       <p className="mt-0">
                       Get in touch with us. Ask your questions and make your suggestions. Just fill out the form and we'll be in touch shortly!
                       </p>
-                      <FormGroup
+                     <form action="https://formsubmit.co/kayquejesusdn@gmail.com" method="POST">
+                     <FormGroup
                         className={classnames("mt-5", {
                           focused: this.state.nameFocused,
                         })}
@@ -72,6 +73,7 @@ class ContactEng extends React.Component {
                           </InputGroupAddon>
                           <Input
                             placeholder="Your name"
+                            name="Name"
                             type="text"
                             onFocus={(e) =>
                               this.setState({ nameFocused: true })
@@ -95,6 +97,7 @@ class ContactEng extends React.Component {
                           </InputGroupAddon>
                           <Input
                             placeholder="Phone number"
+                            name="Phone number"
                             type="tel"
                             onFocus={(e) =>
                               this.setState({ emailFocused: true })
@@ -118,6 +121,7 @@ class ContactEng extends React.Component {
                           </InputGroupAddon>
                           <Input
                             placeholder="Email address"
+                            name="Email"
                             type="email"
                             onFocus={(e) =>
                               this.setState({ emailFocused: true })
@@ -141,6 +145,7 @@ class ContactEng extends React.Component {
                           </InputGroupAddon>
                           <Input
                             placeholder="Location"
+                            name="Location"
                             type="text"
                             onFocus={(e) =>
                               this.setState({ emailFocused: true })
@@ -164,6 +169,7 @@ class ContactEng extends React.Component {
                           </InputGroupAddon>
                           <Input
                             placeholder="What service do you want?"
+                            name="Service"
                             type="text"
                             onFocus={(e) =>
                               this.setState({ emailFocused: true })
@@ -178,7 +184,7 @@ class ContactEng extends React.Component {
                         <Input
                           className="form-control-alternative"
                           cols="80"
-                          name="name"
+                          name="Service description"
                           placeholder="Write a message..."
                           rows="4"
                           type="textarea"
@@ -186,15 +192,15 @@ class ContactEng extends React.Component {
                       </FormGroup>
                       <div>
                         <Button
-                          block
                           className="btn-round"
                           color="default"
                           size="lg"
-                          type="button"
+                          type="submit"
                         >
                           Send Message
                         </Button>
                       </div>
+                     </form>
                     </CardBody>
                   </Card>
                 </Col>
