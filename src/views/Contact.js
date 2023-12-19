@@ -189,7 +189,7 @@ class Contact extends React.Component {
                             rows="4"
                             type="textarea"
                           />
-                          <input type="hidden" name="_next" value="https://abbalogistcs.vercel.app/contact"></input>
+                          <input type="hidden" name="_next" value="https://abbalogistcs.vercel.app/contact/thanks"></input>
                           <input type="hidden" name="_captcha" value="false"></input>
                         </FormGroup>
                         <div>
