@@ -19,6 +19,8 @@ class Thanks extends React.Component {
   render() {
     return (
       <>
+        <Container>
+        <br/><br/><br/><br/><br/>
         <Card className="shadow shadow-lg--hover mt-5">
           <CardBody>
             <div className="d-flex px-3">
@@ -43,6 +45,7 @@ class Thanks extends React.Component {
             </div>
           </CardBody>
         </Card>
+        </Container>
       </>
     );
   }
