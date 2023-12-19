@@ -100,9 +100,46 @@ class EngFooter extends React.Component {
                 </li><br/>
               </ul>
             </Col>
-            <Col md="6">
+            <Col md="4">
+              Navigation
+              <br />
+              <br />
+              <ul className="list-unstyled small">
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <br />
+                <li>
+                  <Link to="/">Services</Link>
+                </li>
+                <br />
+                <li>
+                  <Link to="/">Who we are</Link>
+                </li>
+                <br />
+                <li>
+                  <Link to="/">Differential</Link>
+                </li>
+                <br />
+                <li>
+                  <Link to="/">Contact</Link>
+                </li>
+                <br />
+              </ul>
+            </Col>
+          </Row>
+          <Row className="justify-content-between">
+            <Col md="4">
               <div className="text-muted small">
                 © 2023 <Link to="/"> Abba Logistics</Link> | All rights reserved
+              </div>
+            </Col>
+            <Col md="4">
+              <div className="text-muted small">
+                <strong>Development by </strong>
+                <Link to="https://siriusdevxls.vercel.app/">
+                  Kayque de Jesus
+                </Link>
               </div>
             </Col>
           </Row>

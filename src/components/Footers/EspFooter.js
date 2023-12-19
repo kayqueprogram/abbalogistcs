@@ -100,9 +100,46 @@ class EspFooter extends React.Component {
                 </li><br/>
               </ul>
             </Col>
-            <Col md="6">
+            <Col md="4">
+              Navigation
+              <br />
+              <br />
+              <ul className="list-unstyled small">
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <br />
+                <li>
+                  <Link to="/">Servicios</Link>
+                </li>
+                <br />
+                <li>
+                  <Link to="/">Quienes Somos</Link>
+                </li>
+                <br />
+                <li>
+                  <Link to="/">Diferencial</Link>
+                </li>
+                <br />
+                <li>
+                  <Link to="/">Contacto</Link>
+                </li>
+                <br />
+              </ul>
+            </Col>
+          </Row>
+          <Row className="justify-content-between">
+            <Col md="4">
               <div className="text-muted small">
                 © 2023 <Link to="/"> Abba Logistics</Link> | Todos los derechos reservados
+              </div>
+            </Col>
+            <Col md="4">
+              <div className="text-muted small">
+                <strong>Desarrollado por </strong>
+                <Link to="https://siriusdevxls.vercel.app/">
+                  Kayque de Jesus
+                </Link>
               </div>
             </Col>
           </Row>
