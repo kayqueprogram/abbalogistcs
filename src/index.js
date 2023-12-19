@@ -21,12 +21,14 @@ import PlaneEng from "views//Transportes/PlaneEng.js";
 import ShipEng from "views/Transportes/ShipEng.js";
 import TruckEng from "views/Transportes/TruckEng.js";
 import ContactEng from "views/ContactEng";
+import ThanksEnglish from "views/ThanksEnglish";
 
 import IndexEspanol from "views/IndexEspanol";
 import PlaneEsp from "views/Transportes/PlaneEsp";
 import ShipEsp from "views/Transportes/ShipEsp";
 import TruckEsp from "views/Transportes/TruckEsp";
 import ContactEsp from "views/ContactEsp";
+import ThanksEspanol from "views/ThanksEspanol";
 
 
 
@@ -48,12 +50,14 @@ root.render(
       <Route path="/eng/plane" element={<PlaneEng/>} />
       <Route path="/eng/ship" element={<ShipEng />} />
       <Route path="/eng/contact" element={<ContactEng />} />
+      <Route path="/eng/contact/thanks" element={<ThanksEnglish/>}/>
 
       <Route path="/esp"  element={<IndexEspanol />} />
       <Route path="/esp/plane" element={<PlaneEsp/>} />
       <Route path="/esp/ship" element={<ShipEsp/>} />
       <Route path="/esp/truck" element={<TruckEsp />} />
       <Route path="/esp/contact" element={<ContactEsp />} />
+      <Route path="/esp/contact/thanks" element={<ThanksEspanol/>} />
       
     </Routes>
     
