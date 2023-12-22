@@ -32,7 +32,7 @@ class Thanks extends React.Component {
               <div className="pl-4">
                 <h5 className="title text-success">Muito obrigado pelo contato !</h5>
                 <p>
-                  A Abba Logistics agradece seu contato, lhe responderemos em breve
+                  A Abba Logistics agradece seu contato, lhe responderemos em breve...
                 </p>
                 <a
                   className="text-success"
