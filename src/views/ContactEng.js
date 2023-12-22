@@ -59,7 +59,7 @@ class ContactEng extends React.Component {
                       <p className="mt-0">
                       Get in touch with us. Ask your questions and make your suggestions. Just fill out the form and we'll be in touch shortly!
                       </p>
-                     <form action="https://formsubmit.co/kayquejesusdn@gmail.com" method="POST">
+                     <form action="https://formsubmit.co/contato@abbalogistics.com.br" method="POST">
                      <FormGroup
                         className={classnames("mt-5", {
                           focused: this.state.nameFocused,

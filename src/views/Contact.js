@@ -59,7 +59,7 @@ class Contact extends React.Component {
                       <p className="mt-0">
                         Entre em contato conosco. Tire suas dúvidas e faça suas sugestões. Basta preencher o formulário e logo entraremos em contato!
                       </p>
-                      <form action="https://formsubmit.co/kayquejesusdn@gmail.com" method="POST">
+                      <form action="https://formsubmit.co/contato@abbalogistics.com.br" method="POST">
                         <FormGroup
                           className={classnames("mt-5", {
                             focused: this.state.nameFocused,
