@@ -20,6 +20,7 @@ import classnames from "classnames";
 import EngNavbar from "components/Navbars/EngNavbar"
 import HeroEnglish from "views/IndexSections/HeroEnglish"
 import EngFooter from "components/Footers/EngFooter"
+import { Helmet } from "react-helmet";
 
 class ContactEng extends React.Component {
   state = {};
@@ -27,11 +28,14 @@ class ContactEng extends React.Component {
   render() {
     return (
       <>
+      <Helmet>
+        <title>
+          Contact - Abba Logistics
+        </title>
+      </Helmet>
       <EngNavbar/>
       
-      <Helmet>
-        <title> Contact - Abba Logistics</title>
-      </Helmet>
+   
       <HeroEnglish/>
         <section className="section section-lg bg-gradient-default">
           <section className="section" >

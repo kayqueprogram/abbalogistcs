@@ -14,11 +14,15 @@ import {
   Row,
   Col,
 } from "reactstrap";
+import { Helmet } from "react-helmet";
 
 class ThanksEspanol extends React.Component {
   render() {
     return (
       <>
+      <Helmet>
+        <title>¡Abba Logistics le agradece que se ponga en contacto con nosotros! :)</title>
+      </Helmet>
         <Container>
         <br/><br/><br/><br/><br/>
         <Card className="shadow shadow-lg--hover mt-5">

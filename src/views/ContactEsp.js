@@ -27,11 +27,12 @@ class ContactEsp extends React.Component {
   render() {
     return (
       <>
-      <EspNavbar/>
-      
-      <Helmet>
+         <Helmet>
         <title> Contacto - Abba Logistics</title>
       </Helmet>
+      <EspNavbar/>
+      
+   
       <HeroEspanol/>
         <section className="section section-lg bg-gradient-default">
           <section className="section" >

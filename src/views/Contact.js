@@ -20,6 +20,7 @@ import classnames from "classnames";
 import DemoNavbar from "components/Navbars/DemoNavbar"
 import Hero from "views/IndexSections/Hero"
 import CardsFooter from "components/Footers/CardsFooter"
+import { Helmet } from "react-helmet";
 
 class Contact extends React.Component {
   state = {};
@@ -27,11 +28,14 @@ class Contact extends React.Component {
   render() {
     return (
       <>
+      <Helmet>
+        <title>
+          Contato - Abba Logistics
+        </title>
+      </Helmet>
         <DemoNavbar />
 
-        <Helmet>
-          <title> Contato - Abba Logistics</title>
-        </Helmet>
+
         <Hero />
         <section className="section section-lg bg-gradient-default">
           <section className="section" >

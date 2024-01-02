@@ -12,6 +12,8 @@ import {
   Col,
   UncontrolledTooltip,
 } from "reactstrap";
+import { FaLinkedin } from "react-icons/fa6";
+
 
 const SocialButton = ({ color, icon, link }) => (
   <Button
@@ -69,13 +71,13 @@ class CardsFooter extends React.Component {
                 </UncontrolledTooltip>
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
-                  color="dribbble"
-                  href="#"
+                  color="twitter"
+                  href="https://www.linkedin.com/company/abba-logistics-ltda/"
                   id="tooltip829810202"
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-dribbble" />
+                  <FaLinkedin />
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip829810202">

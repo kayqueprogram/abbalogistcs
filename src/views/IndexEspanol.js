@@ -24,7 +24,7 @@ class IndexEspanol extends React.Component {
     return (
       <>
         <Helmet>
-          <title>Abba Logistics</title>
+          <title>Hogar - Abba Logistics</title>
           <meta
             name="description"
             content="¡Desde 2023 creando soluciones logísticas para ti!"

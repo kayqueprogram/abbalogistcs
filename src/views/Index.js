@@ -23,7 +23,7 @@ class Index extends React.Component {
     return (
       <>
         <Helmet>
-          <title>Abba Logistics</title>
+          <title>Home - Abba Logistics</title>
           <meta
             name="description"
             content="Desde 2023 criando soluções em logística para você!"
