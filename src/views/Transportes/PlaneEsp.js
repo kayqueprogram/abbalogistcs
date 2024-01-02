@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, CardImg } from "reactstrap";
+import { Helmet } from "react-helmet";
 import EspNavbar from "components/Navbars/EspNavbar";
 import HeroEspanol from "views/IndexSections/HeroEspanol";
 import EspFooter from "components/Footers/EspFooter";
@@ -8,6 +9,11 @@ class PlaneEsp extends React.Component {
   render() {
     return (
       <>
+      <Helmet>
+        <title>
+          Aviones - Abba Logistics
+        </title>
+      </Helmet>
       <EspNavbar/>
       <HeroEspanol/>
         <section className="section bg-secondary">

@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, CardImg } from "reactstrap";
+import { Helmet } from "react-helmet";
 import DemoNavbar from "components/Navbars/DemoNavbar"
 import Hero from "views/IndexSections/Hero"
 import CardsFooter from "components/Footers/CardsFooter"
@@ -8,6 +9,11 @@ class Truck extends React.Component {
   render() {
     return (
       <>
+      <Helmet>
+        <title>
+          Caminhões - Abba Logistics
+        </title>
+      </Helmet>
       <DemoNavbar/>
       <Hero/>
         <section className="section bg-secondary">

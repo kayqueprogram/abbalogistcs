@@ -32,7 +32,7 @@ class Contact extends React.Component {
         <title>
           Contato - Abba Logistics
         </title>
-        <link rel="shortcut icon" href="./favicon.ico" />
+       
       </Helmet>
         <DemoNavbar />
 
