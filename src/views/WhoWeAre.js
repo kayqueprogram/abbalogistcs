@@ -40,7 +40,7 @@ class WhoWeAre extends React.Component {
       <>
         <DemoNavbar />
        <Hero/>
-     
+        <main ref="main">
             {/* 1st Hero Variation */}
         
           <section className="section section-lg">
