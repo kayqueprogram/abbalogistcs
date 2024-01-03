@@ -30,7 +30,7 @@ import TruckEsp from "views/Transportes/TruckEsp";
 import ContactEsp from "views/ContactEsp";
 import ThanksEspanol from "views/ThanksEspanol";
 
-
+import WhoWeAre from "views/WhoWeAre";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -44,6 +44,8 @@ root.render(
       <Route path="/ship" element={<Ship/>} />
       <Route path='/contact' element={<Contact/>} />
       <Route path="/contact/thanks" element={<Thanks/>} />
+
+      <Route path="/who-we-are" element={<WhoWeAre/>}/>
       
       <Route path="/eng"  element={<IndexEnglish />} />
       <Route path="/eng/truck" element={<TruckEng />} />
