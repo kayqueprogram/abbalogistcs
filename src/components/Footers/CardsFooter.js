@@ -106,7 +106,7 @@ class CardsFooter extends React.Component {
                     </svg>{" "}
                     Endereço:
                   </strong>{" "}
-                  Estr. Dos Casa, 3590, São Paulo, SP, Brasil
+                  Estr. Dos Casa, 3590, São Bernardo do Campo, SP, Brasil
                 </li>
                 <br />
                 <li>
