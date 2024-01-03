@@ -106,7 +106,7 @@ class CardsFooter extends React.Component {
                     </svg>{" "}
                     Endereço:
                   </strong>{" "}
-                  Rua Exemplo de Setembro, 123, São Paulo, SP, Brasil
+                  Estr. Dos Casa, 3590, São Paulo, SP, Brasil
                 </li>
                 <br />
                 <li>
@@ -121,7 +121,7 @@ class CardsFooter extends React.Component {
                     </svg>{" "}
                     Email:
                   </strong>{" "}
-                  contato@empresa.com.br
+                  contato@abbalogistics.com.br
                 </li>
                 <br />
                 <li>
@@ -167,7 +167,7 @@ class CardsFooter extends React.Component {
                 </li>
                 <br />
                 <li>
-                  <Link to="/">Serviços</Link>
+                  <Link to="#services">Serviços</Link>
                 </li>
                 <br />
                 <li>
