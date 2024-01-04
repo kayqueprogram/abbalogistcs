@@ -21,7 +21,7 @@ import {
 
 // core components
 import EspNavbar from "components/Navbars/EspNavbar";
-import EspFooter from "components/Footers/EspFooter";
+
 
 // index page sections
 
