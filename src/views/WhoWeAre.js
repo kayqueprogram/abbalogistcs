@@ -137,7 +137,7 @@ class WhoWeAre extends React.Component {
               </svg>
             </div>
           </section>
-          
+          <br/><br/><br/><br/><br/><br/><br/>
           <section className="section section-lg pt-0">
             <Container>
               <Card className="bg-gradient-warning shadow-lg border-0">
