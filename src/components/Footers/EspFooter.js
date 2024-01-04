@@ -114,15 +114,7 @@ class EspFooter extends React.Component {
                 </li>
                 <br />
                 <li>
-                  <Link to="#services">Servicios</Link>
-                </li>
-                <br />
-                <li>
                   <Link to="/">Quienes Somos</Link>
-                </li>
-                <br />
-                <li>
-                  <Link to="/">Diferencial</Link>
                 </li>
                 <br />
                 <li>

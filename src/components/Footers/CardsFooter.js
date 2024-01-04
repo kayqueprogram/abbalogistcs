@@ -166,20 +166,14 @@ class CardsFooter extends React.Component {
                   <Link to="/">Home</Link>
                 </li>
                 <br />
+
                 <li>
-                  <Link to="#services">Serviços</Link>
+                  <Link to="/who-we-are">Quem somos</Link>
                 </li>
                 <br />
+
                 <li>
-                  <Link to="/">Quem somos</Link>
-                </li>
-                <br />
-                <li>
-                  <Link to="/">Diferencial</Link>
-                </li>
-                <br />
-                <li>
-                  <Link to="/">Contato</Link>
+                  <Link to="/contact">Contato</Link>
                 </li>
                 <br />
               </ul>

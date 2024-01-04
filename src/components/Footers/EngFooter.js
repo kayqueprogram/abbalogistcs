@@ -114,15 +114,7 @@ class EngFooter extends React.Component {
                 </li>
                 <br />
                 <li>
-                  <Link to="#services">Services</Link>
-                </li>
-                <br />
-                <li>
                   <Link to="/">Who we are</Link>
-                </li>
-                <br />
-                <li>
-                  <Link to="/">Differential</Link>
                 </li>
                 <br />
                 <li>
