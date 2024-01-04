@@ -41,8 +41,6 @@ class WhoWeAre extends React.Component {
         <DemoNavbar />
         <Hero />
         <main ref="main">
-          {/* 1st Hero Variation */}
-
           <section className="section pb-0 bg-gradient-warning">
             <Container>
               <Row className="row-grid align-items-center">
@@ -54,11 +52,9 @@ class WhoWeAre extends React.Component {
                       </div>
                     </div>
                     <div className="pl-4">
-                      <h4 className="display-3 text-white">Modern Interface</h4>
+                      <h4 className="display-3 text-white">Quem somos nós?</h4>
                       <p className="text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever.
+                      A Abba Logistics é conhecida por fornecer serviços de encaminhamento de frete internacional de alta qualidade. Temos uma equipe de profissionais experientes que trabalham para garantir que as necessidades de nossos clientes sejam atendidas.
                       </p>
                     </div>
                   </div>
