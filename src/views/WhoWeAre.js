@@ -92,10 +92,6 @@ class WhoWeAre extends React.Component {
                             necessidades sejam atendidas de maneira eficiente e
                             eficaz .
                           </p>
-                          <p> A equipe da Abba Logistics trabalha em
-                            estreita colaboração com seus clientes para entender
-                            suas necessidades e fornecer soluções personalizadas.
-                          </p>
                         </div>
                       </div>
                     </CardBody>
@@ -113,17 +109,10 @@ class WhoWeAre extends React.Component {
                             Compromisso com o cliente
                           </h5>
                           <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
+                          A equipe da Abba Logistics trabalha em
+                            estreita colaboração com seus clientes para entender
+                            suas necessidades e fornecer soluções personalizadas.
                           </p>
-                          <a
-                            className="text-warning"
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Learn more
-                          </a>
                         </div>
                       </div>
                     </CardBody>
