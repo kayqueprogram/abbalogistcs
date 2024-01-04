@@ -15,6 +15,7 @@ import Truck from "views/Transportes/Truck";
 import Plane from "views/Transportes/Plane";
 import Ship from "views/Transportes/Ship";
 import Thanks from "views/Thanks";
+import WhoWeAre from "views/WhoWeAre";
 
 import IndexEnglish from "views/IndexEnglish";
 import PlaneEng from "views//Transportes/PlaneEng.js";
@@ -22,6 +23,7 @@ import ShipEng from "views/Transportes/ShipEng.js";
 import TruckEng from "views/Transportes/TruckEng.js";
 import ContactEng from "views/ContactEng";
 import ThanksEnglish from "views/ThanksEnglish";
+import WhoWeAreEng from "views/WhoWeAreEng";
 
 import IndexEspanol from "views/IndexEspanol";
 import PlaneEsp from "views/Transportes/PlaneEsp";
@@ -30,7 +32,7 @@ import TruckEsp from "views/Transportes/TruckEsp";
 import ContactEsp from "views/ContactEsp";
 import ThanksEspanol from "views/ThanksEspanol";
 
-import WhoWeAre from "views/WhoWeAre";
+
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -44,7 +46,6 @@ root.render(
       <Route path="/ship" element={<Ship/>} />
       <Route path='/contact' element={<Contact/>} />
       <Route path="/contact/thanks" element={<Thanks/>} />
-
       <Route path="/who-we-are" element={<WhoWeAre/>}/>
       
       <Route path="/eng"  element={<IndexEnglish />} />
@@ -53,6 +54,7 @@ root.render(
       <Route path="/eng/ship" element={<ShipEng />} />
       <Route path="/eng/contact" element={<ContactEng />} />
       <Route path="/eng/contact/thanks" element={<ThanksEnglish/>}/>
+      <Route path="/eng/who-we-are" element={<WhoWeAreEng/>} />
 
       <Route path="/esp"  element={<IndexEspanol />} />
       <Route path="/esp/plane" element={<PlaneEsp/>} />

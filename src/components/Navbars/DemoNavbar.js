@@ -163,7 +163,7 @@ class DemoNavbar extends React.Component {
                   </UncontrolledDropdown>
 
 
-                  <NavLink href="/who-we-are" target="_blank">
+                  <NavLink href="/who-we-are">
                   <i className="ni ni-collection d-lg-none mr-1" />
                     <span className="nav-link-inner--text ">Quem somos?</span>
                   </NavLink>

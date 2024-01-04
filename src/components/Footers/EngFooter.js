@@ -110,11 +110,11 @@ class EngFooter extends React.Component {
               <br />
               <ul className="list-unstyled small">
                 <li>
-                  <Link to="/">Home</Link>
+                  <Link to="/eng">Home</Link>
                 </li>
                 <br />
                 <li>
-                  <Link to="/">Who we are</Link>
+                  <Link to="/eng/who-we-are">Who we are</Link>
                 </li>
                 <br />
                 <li>
