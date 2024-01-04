@@ -160,16 +160,10 @@ class EngNavbar extends React.Component {
                       </div>
                     </DropdownMenu>
                   </UncontrolledDropdown>
-                  <UncontrolledDropdown nav>
-                    <DropdownToggle nav>
-                      <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Who we are</span>
-                    </DropdownToggle>
-                  </UncontrolledDropdown>
 
                   <NavLink href="#" target="_blank">
-                    <FaPersonCircleCheck className="d-lg-none mr-1" />
-                    <span className="nav-link-inner--text ">Differential</span>
+                  <i className="ni ni-collection d-lg-none mr-1" />
+                    <span className="nav-link-inner--text ">Who we are</span>
                   </NavLink>
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
