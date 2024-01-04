@@ -110,11 +110,11 @@ class EspFooter extends React.Component {
               <br />
               <ul className="list-unstyled small">
                 <li>
-                  <Link to="/">Home</Link>
+                  <Link to="/esp">Home</Link>
                 </li>
                 <br />
                 <li>
-                  <Link to="/">Quienes Somos</Link>
+                  <Link to="/esp/who-we-are">Quienes Somos</Link>
                 </li>
                 <br />
                 <li>

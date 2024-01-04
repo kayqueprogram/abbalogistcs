@@ -160,7 +160,7 @@ class EspNavbar extends React.Component {
                       </div>
                     </DropdownMenu>
                   </UncontrolledDropdown>
-                  <NavLink href="#" >
+                  <NavLink href="/esp/who-we-are" >
                   <i className="ni ni-collection d-lg-none mr-1" />
                     <span className="nav-link-inner--text ">Quienes somos</span>
                   </NavLink>

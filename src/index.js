@@ -31,6 +31,7 @@ import ShipEsp from "views/Transportes/ShipEsp";
 import TruckEsp from "views/Transportes/TruckEsp";
 import ContactEsp from "views/ContactEsp";
 import ThanksEspanol from "views/ThanksEspanol";
+import WhoWeAreEsp from "views/WhoWeAreEsp";
 
 
 
@@ -62,6 +63,7 @@ root.render(
       <Route path="/esp/truck" element={<TruckEsp />} />
       <Route path="/esp/contact" element={<ContactEsp />} />
       <Route path="/esp/contact/thanks" element={<ThanksEspanol/>} />
+      <Route path="/esp/who-we-are" element={<WhoWeAreEsp/>}/>
       
     </Routes>
     
