@@ -44,11 +44,20 @@ class WhoWeAre extends React.Component {
           <section className="section pb-0 bg-gradient-warning">
             <Container>
               <Row className="row-grid align-items-center">
+              <Col className="order-lg-2 ml-lg-auto" md="6">
+                  <div className="position-relative pl-md-5">
+                    <img
+                      alt="..."
+                      className="img-center img-fluid"
+                      src="https://cdn.discordapp.com/attachments/995485098336067675/1192273779490050118/telemarketing.jpg?ex=65a87a7c&is=6596057c&hm=6f7cf4a3251fbf1493f14b6daf989fa18652e4b9c80c376c8bb8fe872730f9f0&"
+                    />
+                  </div>
+                </Col>
                 <Col className="order-lg-1" lg="6">
                   <div className="d-flex px-3">
                     <div>
                       <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                        <img src="https://cdn.discordapp.com/attachments/995485098336067675/1192273779490050118/telemarketing.jpg?ex=65a87a7c&is=6596057c&hm=6f7cf4a3251fbf1493f14b6daf989fa18652e4b9c80c376c8bb8fe872730f9f0&"  style={{ width: "200px" }}/>
+                        <i className="ni ni-building text-primary" />
                       </div>
                     </div>
                     <div className="pl-4">
