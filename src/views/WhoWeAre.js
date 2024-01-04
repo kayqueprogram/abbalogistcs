@@ -44,7 +44,7 @@ class WhoWeAre extends React.Component {
           <section className="section pb-0 bg-gradient-warning">
             <Container>
               <Row className="row-grid align-items-center">
-              <Col className="order-lg-2 ml-lg-auto" md="6">
+                <Col className="order-lg-2 ml-lg-auto" md="6">
                   <div className="position-relative pl-md-5">
                     <img
                       alt="..."
@@ -63,7 +63,11 @@ class WhoWeAre extends React.Component {
                     <div className="pl-4">
                       <h4 className="display-3 text-white">Quem somos nós?</h4>
                       <p className="text-white">
-                      A Abba Logistics é conhecida por fornecer serviços de encaminhamento de frete internacional de alta qualidade. Temos uma equipe de profissionais experientes que trabalham para garantir que as necessidades de nossos clientes sejam atendidas.
+                        A Abba Logistics é conhecida por fornecer serviços de
+                        encaminhamento de frete internacional de alta qualidade.
+                        Temos uma equipe de profissionais experientes que
+                        trabalham para garantir que as necessidades de nossos
+                        clientes sejam atendidas.
                       </p>
                     </div>
                   </div>
@@ -77,20 +81,21 @@ class WhoWeAre extends React.Component {
                         </div>
                         <div className="pl-4">
                           <h5 className="title text-success">
-                            Awesome Support
+                            Atendimento personalizado
                           </h5>
                           <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
+                            A Abba Logistics acredita que cada cliente possui
+                            necessidades únicas e, por isso, oferece soluções
+                            personalizadas para atender a essas necessidades . A
+                            empresa se esforça para garantir que cada cliente
+                            receba um serviço excepcional e que suas
+                            necessidades sejam atendidas de maneira eficiente e
+                            eficaz .
                           </p>
-                          <a
-                            className="text-success"
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Learn more
-                          </a>
+                          <p> A equipe da Abba Logistics trabalha em
+                            estreita colaboração com seus clientes para entender
+                            suas necessidades e fornecer soluções personalizadas.
+                          </p>
                         </div>
                       </div>
                     </CardBody>
@@ -105,7 +110,7 @@ class WhoWeAre extends React.Component {
                         </div>
                         <div className="pl-4">
                           <h5 className="title text-warning">
-                            Modular Components
+                            Compromisso com o cliente
                           </h5>
                           <p>
                             The Arctic Ocean freezes every winter and much of
