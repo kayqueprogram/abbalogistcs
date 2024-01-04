@@ -109,9 +109,9 @@ class WhoWeAre extends React.Component {
                             Compromisso com o cliente
                           </h5>
                           <p>
-                          A equipe da Abba Logistics trabalha em
-                            estreita colaboração com seus clientes para entender
-                            suas necessidades e fornecer soluções personalizadas.
+                            A equipe da Abba Logistics trabalha em estreita
+                            colaboração com seus clientes para entender suas
+                            necessidades e fornecer soluções personalizadas.
                           </p>
                         </div>
                       </div>
@@ -137,31 +137,41 @@ class WhoWeAre extends React.Component {
               </svg>
             </div>
           </section>
-          <br/><br/><br/><br/><br/><br/><br/>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <section className="section section-lg pt-0">
             <Container>
               <Card className="bg-gradient-warning shadow-lg border-0">
                 <div className="p-5">
                   <Row className="align-items-center">
                     <Col lg="8">
-                      <h3 className="text-white">
-                        We made website building easier for you.
-                      </h3>
+                      <h3 className="text-white">Como podemos te ajudar?</h3>
                       <p className="lead text-white mt-3">
-                        I will be the leader of a company that ends up being
-                        worth billions of dollars, because I got the answers. I
-                        understand culture.
+                        Se você está procurando uma empresa de transporte e
+                        logística que ofereça soluções em todos os modais, a Abba
+                        Logistics é a escolha certa para você. Oferecemos transporte aéreo, marítimo e rodoviário, além
+                        de um serviço de extrema urgência(Hotline), que
+                        garante a entrega da carga em até 8 horas em qualquer
+                        lugar do país. A empresa também trabalha com os
+                        melhores parceiros, para atender às
+                        necessidades dos clientes, visando a velocidade,
+                        qualidade e segurança nas coletas e entregas.
                       </p>
                     </Col>
                     <Col className="ml-lg-auto" lg="3">
                       <Button
-                        block
+                        
                         className="btn-white"
                         color="default"
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                        href="/contact"
                         size="lg"
                       >
-                        Download React
+                        Contate-nos
                       </Button>
                     </Col>
                   </Row>
@@ -169,7 +179,6 @@ class WhoWeAre extends React.Component {
               </Card>
             </Container>
           </section>
-          
         </main>
         <CardsFooter />
       </>
