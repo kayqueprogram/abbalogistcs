@@ -48,7 +48,7 @@ class WhoWeAre extends React.Component {
                   <div className="position-relative pl-md-5">
                     <img
                       alt="..."
-                      className="img-center img-fluid"
+                      className="img-center img-fluid rounded-circle"
                       src="https://cdn.discordapp.com/attachments/995485098336067675/1192273779490050118/telemarketing.jpg?ex=65a87a7c&is=6596057c&hm=6f7cf4a3251fbf1493f14b6daf989fa18652e4b9c80c376c8bb8fe872730f9f0&"
                     />
                   </div>
