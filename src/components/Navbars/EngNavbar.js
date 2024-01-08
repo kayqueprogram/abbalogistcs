@@ -67,7 +67,7 @@ class EngNavbar extends React.Component {
                 <img
                   alt="..."
                   height="750px"
-                  src="https://cdn.discordapp.com/attachments/995485098336067675/1182487946310471760/ABBA_drive-removebg-preview_2.png?ex=6584e0b7&is=65726bb7&hm=95d16864d94e54b19c9dc124dbb52df3320e62df20785c1fb06efb9133b2973e&"
+                  src="https://cdn.discordapp.com/attachments/995485098336067675/1193934715397345351/ABBA_drive__1___1_-removebg-preview.png?ex=65ae855a&is=659c105a&hm=1f635c5e14f798f37caddfe7babcc3adf105f3c2364c79ae1e432cc364180452&"
                 />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
@@ -86,7 +86,7 @@ class EngNavbar extends React.Component {
                       <Link to="/eng">
                         <img
                           alt="..."
-                          src="https://cdn.discordapp.com/attachments/995485098336067675/1193934715397345351/ABBA_drive__1___1_-removebg-preview.png?ex=65ae855a&is=659c105a&hm=1f635c5e14f798f37caddfe7babcc3adf105f3c2364c79ae1e432cc364180452&"
+                          src="https://cdn.discordapp.com/attachments/995485098336067675/1182487946310471760/ABBA_drive-removebg-preview_2.png?ex=6584e0b7&is=65726bb7&hm=95d16864d94e54b19c9dc124dbb52df3320e62df20785c1fb06efb9133b2973e&"
                         />
                       </Link>
                     </Col>
