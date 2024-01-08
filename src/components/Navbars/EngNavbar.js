@@ -67,7 +67,7 @@ class EngNavbar extends React.Component {
                 <img
                   alt="..."
                   height="850px"
-                  src="https://cdn.discordapp.com/attachments/995485098336067675/1193934715397345351/ABBA_drive__1___1_-removebg-preview.png?ex=65ae855a&is=659c105a&hm=1f635c5e14f798f37caddfe7babcc3adf105f3c2364c79ae1e432cc364180452&"
+                  src="https://cdn.discordapp.com/attachments/995485098336067675/1193940759322308618/ABBA_drive__1___1_-removebg-preview_resized.png?ex=65ae8afb&is=659c15fb&hm=54318a15a46d06195096517401be5c1f71c7d5fca25ce08eebfda1e5ee40d754&"
                 />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
