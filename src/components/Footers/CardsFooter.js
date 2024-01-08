@@ -106,7 +106,7 @@ class CardsFooter extends React.Component {
                     </svg>{" "}
                     Endereço:
                   </strong>{" "}
-                  Estr. Dos Casa, 3590, São Bernardo do Campo, SP, Brasil
+                  Rua rio Branco, n° 11, São Bernardo do Campo - Centro, Sp. CEP: 09710-090
                 </li>
                 <br />
                 <li>
