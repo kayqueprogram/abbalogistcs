@@ -65,7 +65,7 @@ class EspNavbar extends React.Component {
               <NavbarBrand className="mr-lg-5" to="/esp" tag={Link}>
                 <img
                   alt="..."
-                  height="750px"
+                  height="850px"
                   src="https://cdn.discordapp.com/attachments/995485098336067675/1193934715397345351/ABBA_drive__1___1_-removebg-preview.png?ex=65ae855a&is=659c105a&hm=1f635c5e14f798f37caddfe7babcc3adf105f3c2364c79ae1e432cc364180452&"
                 />
               </NavbarBrand>
