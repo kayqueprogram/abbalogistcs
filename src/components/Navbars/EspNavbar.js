@@ -66,7 +66,7 @@ class EspNavbar extends React.Component {
                 <img
                   alt="..."
                   height="850px"
-                  src="https://media.discordapp.net/attachments/995485098336067675/1182487946310471760/ABBA_drive-removebg-preview_2.png?ex=65ea6437&is=65d7ef37&hm=a1443dd8f993cfb8bb10f44779a7af5fbb60faf17c880971c158727de3d32f98&=&format=webp&quality=lossless"
+                  src="https://firebasestorage.googleapis.com/v0/b/abbalogistics-31f3a.appspot.com/o/ABBA_drive__1___1_-removebg-preview_resized.png?alt=media&token=1243a947-9007-4138-bd2a-c003ac5fc0bf"
                 />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
@@ -85,7 +85,7 @@ class EspNavbar extends React.Component {
                       <Link to="/esp">
                         <img
                           alt="..."
-                          src="https://cdn.discordapp.com/attachments/995485098336067675/1182487946310471760/ABBA_drive-removebg-preview_2.png?ex=65ea6437&is=65d7ef37&hm=a1443dd8f993cfb8bb10f44779a7af5fbb60faf17c880971c158727de3d32f98&"
+                          src="https://firebasestorage.googleapis.com/v0/b/abbalogistics-31f3a.appspot.com/o/ABBA_drive__1___1_-removebg-preview_resized.png?alt=media&token=1243a947-9007-4138-bd2a-c003ac5fc0bf"
                         />
                       </Link>
                     </Col>
